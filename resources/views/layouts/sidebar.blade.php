@@ -17,7 +17,7 @@
           <i class="fas fa-fw fa-home"></i>
           <span>Dashboard</span></a>
       </li>
-
+<!-- Command Start
       {{-- Karyawan --}}
       <li class="nav-item ">
         <a class="nav-link" href="{{ route('karyawan.index') }}">
@@ -59,7 +59,7 @@
           <i class="fas fa-fw fa-dollar-sign"></i>
           <span>Pendapatan Total</span></a>
       </li>
-
+End Command-->
       <!-- Divider -->
       <hr class="sidebar-divider">
 

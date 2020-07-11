@@ -8,7 +8,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        $data = DB::select('SELECT * FROM KARYAWAN');
+        // $data = DB::select('SELECT * FROM KARYAWAN');
         return view('dashboard', compact('data'));
     }
 }
